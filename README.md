@@ -18,6 +18,7 @@ Before running this project, make sure you have the following installed:
   ```bash
   git clone https://github.com/your-repo/nestjs-crud-api.git
   cd nestjs-crud-api
+  ```
 
 2. Install dependencies
   ```bash
