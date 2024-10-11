@@ -23,6 +23,7 @@ Before running this project, make sure you have the following installed:
 2. Install dependencies
   ```bash
   npm install
+  ```
 
 3. Set up your MongoDB connection:
 In app.module.ts, ensure that the MongoDB connection string is correct:
@@ -34,12 +35,12 @@ Change the URI to your MongoDB instance if necessary.
 4. Start the development server:
   ```bash
   npm run start:dev
-
+  ```
 The API will be running at http://localhost:3000.
 
 ### API Endpoints
 Refer to the Postman documentation for detailed information on each endpoint [here](https://documenter.getpostman.com/view/28440801/2sAXxS7BJF)
 
 ### Error Handling 
-- **404 Not Found:** Returned when an item is not found with the given ID.
-- **400 Bad Request:** Returned when the ID format is invalid.
+1. **404 Not Found:** Returned when an item is not found with the given ID.
+2. **400 Bad Request:** Returned when the ID format is invalid.
